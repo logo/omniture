@@ -1,18 +1,2 @@
-
-/**
- * Omniture
- */
-
-.logo[data-logo="Omniture"] {
-  width: 3.377156105em;
-  /* (121.39/32.35) * (1-.1) - 0 */
-}
-
-.logo[data-logo="Omniture"] > * {
-  background-image: url(images/logo.svg);
-  margin: 0 0 .1em 0;
-}
-
-.logo[data-logo="Omniture"].monochromatic > * {
-  background-image: url(images/logo-monochromatic.svg);
-}
+@import 'logo/logo';
+@import './style';
